@@ -21,6 +21,6 @@ body {
 .navbar-brand {
   background-color: white;
 }
-.navbar a .navbar-brand {
+.navbar a.navbar-brand {
   color: black;
 }
