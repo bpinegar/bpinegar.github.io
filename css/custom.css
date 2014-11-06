@@ -15,7 +15,7 @@ body {
 }
 .navbar-default .navbar-nav > .active {
   color: white;
-  background: red;
+  background-color: #FF9933;
  }
 .navbar-inverse .navbar-nav li a:hover {
   background-color:white;
