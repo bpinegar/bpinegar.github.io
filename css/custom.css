@@ -9,7 +9,7 @@ body {
   background-color:  #336699;
   border-style: none;
 }
-.navbar-default.navbar a {
+.navbar a {
   color: white;
 }
 .navbar-bold.affix {
