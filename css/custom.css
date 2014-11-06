@@ -24,3 +24,4 @@ body {
 .navbar a.navbar-brand {
   color: black;
 }
+.navbar-default .navbar-nav>li>a{color:white;}
