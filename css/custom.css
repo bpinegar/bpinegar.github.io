@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 .navbar, .navbar-inverse {
-  background-color: red;
+  background-color: #336699;
 }
 
 .nav li {
