@@ -20,5 +20,7 @@ body {
 }
 .navbar-brand {
   background-color: white;
+}
+.brand{
   color: black;
 }
