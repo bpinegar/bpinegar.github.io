@@ -19,6 +19,8 @@ body {
 .navbar-bold li a:hover, .navbar-bold li.active {
 }
 .navbar-brand {
-  color: black;
   background-color: white;
+}
+.navbar-brand a {
+  color: black;
 }
