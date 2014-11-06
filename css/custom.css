@@ -5,13 +5,12 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.navbar, .navbar-inverse {
+.navbar-inverse {
   background-color: #336699;
   border: none;
 }
-
-.nav li {
-
+.navbar-inverse .navbar-brand{
+  color: whiet;
 }
 .navbar-inverse .navbar-nav > li > a {
   color:white;
