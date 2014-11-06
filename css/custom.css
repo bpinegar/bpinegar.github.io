@@ -22,3 +22,8 @@ body {
   color: #336699;
 
 }
+.navbar-inverse .navbar-nav li a:active {
+  background-color:red;
+  color: #336699;
+
+}
