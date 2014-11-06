@@ -13,8 +13,10 @@ body {
 
 }
 .navbar-inverse .navbar-nav > li > a {
+  color:white;
 
 }
 .navbar-inverse .navbar-nav li a:hover {
+  background-color:red;
 
 }
