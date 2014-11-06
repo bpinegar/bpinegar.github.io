@@ -9,8 +9,12 @@ body {
   background-color: #336699;
   border: none;
 }
+ .navbar-default .navbar-nav > .active{
+  color: white;
+  background: red;
+ }
 .navbar-inverse .navbar-brand{
-  color: whiet;
+  color: white;
 }
 .navbar-inverse .navbar-nav > li > a {
   color:white;
