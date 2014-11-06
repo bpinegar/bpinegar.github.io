@@ -10,3 +10,14 @@ body {
   color:white;
   border-style: none;
 }
+.navbar a {
+}
+.navbar-bold.affix {
+}
+.navbar-bold {
+}
+.navbar-bold li a:hover, .navbar-bold li.active {
+}
+.navbar-brand {
+  background-color: white;
+}
