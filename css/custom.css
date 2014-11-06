@@ -9,24 +9,16 @@ body {
   background-color: #336699;
   border: none;
 }
- .navbar-default .navbar-nav > .active{
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  color:white;
+}
+.navbar-default .navbar-nav > .active {
   color: white;
   background: red;
  }
-.navbar-inverse .navbar-brand{
-  color: white;
-}
-.navbar-inverse .navbar-nav > li > a {
-  color:white;
-
-}
 .navbar-inverse .navbar-nav li a:hover {
   background-color:white;
   color: #336699;
-
 }
-.navbar-inverse .navbar-nav li a:active {
-  background-color:red;
-  color: #336699;
 
-}
