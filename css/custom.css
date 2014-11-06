@@ -7,6 +7,7 @@ body {
 }
 .navbar, .navbar-inverse {
   background-color: #336699;
+  border: none;
 }
 
 .nav li {
@@ -17,6 +18,9 @@ body {
 
 }
 .navbar-inverse .navbar-nav li a:hover {
-  background-color:red;
+  background-color:#7094DB;
 
+}
+.navbar-brand{
+  color:white;
 }
