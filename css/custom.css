@@ -25,7 +25,6 @@ body {
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: white;
-  color: white;
-  border: none;
+  border-style: none;
 }
 
