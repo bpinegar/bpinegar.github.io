@@ -44,7 +44,7 @@
 //
 // -----------------------------------------
 
-var CountdownImageFolder = "/img/countdown/"; // Should have trailing slash.
+var CountdownImageFolder = "img/countdown/"; // Should have trailing slash.
 // NOTE: The countdown script assumes the folder is relative to the countdown.js script file.
 // When CountdownImageFolder starts with a slash "/", or "http" the script will not assume the 
 // folder is relative to the script and you can hard-code another folder on your site.
