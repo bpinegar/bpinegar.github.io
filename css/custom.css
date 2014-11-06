@@ -24,6 +24,6 @@ body {
   color: #336699;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-
+  background-color:red;
 }
 
