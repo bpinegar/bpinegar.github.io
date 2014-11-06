@@ -7,10 +7,10 @@ body {
 }
 .navbar-custom  {
   background-color:  #336699;
-  color:white;
   border-style: none;
 }
 .navbar a {
+  color: white;
 }
 .navbar-bold.affix {
 }
