@@ -21,6 +21,6 @@ body {
   background-color:#7094DB;
 
 }
-.navbar-brand{
+.navbar a .navbar-brand{
   color:white;
 }
