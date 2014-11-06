@@ -5,22 +5,16 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.navbar-custom  {
-  background-color:  #336699;
-  border-style: none;
+.navbar, .navbar-inverse {
+  background-color: red;
 }
-.navbar a {
-  color: white;
+
+.nav li {
+
 }
-.navbar-bold.affix {
+.navbar-inverse .navbar-nav > li > a {
+
 }
-.navbar-bold {
-}
-.navbar-bold li a:hover, .navbar-bold li.active {
-}
-.navbar-brand {
-  background-color: white;
-}
-.navbar a.navbar-brand {
-  color: black;
+.navbar-inverse .navbar-nav li a:hover {
+
 }
