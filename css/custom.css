@@ -5,7 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.navbar-default  {
+.navbar-custom  {
   background-color:  #336699;
   border-style: none;
 }
@@ -24,4 +24,3 @@ body {
 .navbar a.navbar-brand {
   color: black;
 }
-.navbar-default .navbar-nav>li>a{color:white;}
