@@ -27,11 +27,12 @@ body {
 }
 .navbar-inverse .navbar-toggle .icon-bar
 {
-  background-color: #99B2CC;
+  background-color: white;
+  opacity: .5;
 }
 .navbar-inverse .navbar-toggle:focus .icon-bar, 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
-  background-color: white;
+  opacity: 1;
 }
 .navbar-inverse .navbar-toggle,
 .navbar-inverse .navbar-toggle:focus,
