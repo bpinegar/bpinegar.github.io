@@ -6,6 +6,12 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
 .navbar-inverse {
   background-color: #336699;
   border: none;
