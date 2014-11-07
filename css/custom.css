@@ -44,6 +44,7 @@ body {
 .carousel-inner,
 .carousel-inner .item {
   background: black;
+  height: 250px;
   width: 100%;
 }
 .carousel-fade .carousel-inner .item {
