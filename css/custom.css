@@ -40,12 +40,6 @@ body {
   background-color: #336699;
   border:none;
 }
-@media (max-width: 767px) {
-    .block {
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-}
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
