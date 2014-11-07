@@ -87,9 +87,7 @@ body {
   background-color: white;
   opacity: 1;
 }
-.carousel,
-.item,
-.active {
+.carousel .item .active {
   width:100%;
 }
 .carousel-inner {
