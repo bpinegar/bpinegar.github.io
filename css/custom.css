@@ -23,10 +23,12 @@ body {
   background-color:white;
   color: #336699;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar{
   background-color: white;
 }
-.navbar-inverse .navbar-toggle {
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:focus {
   background-color: #336699;
   border:none;
 }
