@@ -5,9 +5,6 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-h1, p {
-  font-family: helvetica, arial, sans-serif;
-}
 .navbar-inverse {
   background-color: #336699;
   border: none;
