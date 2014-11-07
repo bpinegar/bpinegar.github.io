@@ -46,6 +46,12 @@ body {
   background: black;
   min-width: 100%;
 }
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
 .carousel-fade .carousel-inner .item {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -86,10 +92,4 @@ body {
   border: none;
   background-color: white;
   opacity: 1;
-}
-.carousel .item .active {
-  width:100%;
-}
-.carousel-inner {
-  width:100%;
 }
