@@ -71,6 +71,10 @@ body {
   background: none;
   text-shadow: none;
 }
+.carousel-fade .carousel-control:hover
+.carousel-fade .carousel-control:focus {
+  opacity: 1;
+}
 .carousel-fade .carousel-indicators li {
   border: none;
   background-color: white;
