@@ -64,3 +64,11 @@ body {
   z-index: 2;
   background: none;
 }
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+  background: black;
+}
