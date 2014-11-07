@@ -42,7 +42,6 @@ body {
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
-  width: 100%;
   background: black;
 }
 .carousel-fade .carousel-inner .item {
