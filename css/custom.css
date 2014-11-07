@@ -39,6 +39,12 @@ body {
   background-color: #336699;
   border:none;
 }
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+  background: black;
+}
 .carousel-fade .carousel-inner .item {
   -webkit-transition: opacity 1.0s ease-in-out;
   -moz-transition: opacity 1.0s ease-in-out;
@@ -64,11 +70,4 @@ body {
   z-index: 2;
   background: none;
 }
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-  height: 100%;
-  background: black;
-}
+
