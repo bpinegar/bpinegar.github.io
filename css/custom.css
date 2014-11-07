@@ -49,7 +49,6 @@ body {
 }
 .carousel-fade .carousel-inner .active {
   opacity: 1 !important;
-  background-color: black;
 }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
