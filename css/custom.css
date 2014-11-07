@@ -15,7 +15,8 @@ body {
 }
 .navbar-inverse .navbar-nav > .active,
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover {
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,{
   color: white;
   background-color: #FF9933;
 }
@@ -24,11 +25,13 @@ body {
   color: #336699;
 }
 .navbar-inverse .navbar-toggle .icon-bar,
-.navbar-inverse .navbar-toggle:focus .icon-bar{
+.navbar-inverse .navbar-toggle:focus .icon-bar, 
+.navbar-inverse .navbar-toggle:hover .icon-bar {
   background-color: white;
 }
 .navbar-inverse .navbar-toggle,
-.navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
   background-color: #336699;
   border:none;
 }
