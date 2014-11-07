@@ -23,8 +23,10 @@ body {
   background-color:white;
   color: #336699;
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
 .navbar-inverse .navbar-toggle {
-  background-color:white;
-  color:red;
+  background-color: #336699;
   border:none;
 }
