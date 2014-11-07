@@ -75,7 +75,7 @@ body {
   background-color: #fff;
   opacity: 0.5;
 }
-.carousel-indicators:active li {
+.carousel-indicators li:active {
   border: none;
   background-color: #fff;
   opacity: 1.0;
