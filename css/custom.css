@@ -23,7 +23,8 @@ body {
   background-color:white;
   color: #336699;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle .icon-bar,
+.navbar-inverse .navbar-toggle .icon-bar:hover {
   background-color:white;
   color:red;
   border-color:white;
