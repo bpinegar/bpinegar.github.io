@@ -39,7 +39,7 @@ body {
   background-color: #336699;
   border:none;
 }
-.carousel-fade .carousel-inner .item {
+.carousel .carousel-fade .carousel-inner .item {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
