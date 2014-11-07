@@ -69,13 +69,14 @@ body {
 .carousel-fade .carousel-control {
   z-index: 2;
   background: none;
+  text-shadow: none;
 }
-.carousel-indicators li {
+.carousel-fade .carousel-indicators li {
   border: none;
   background-color: white;
   opacity: 0.5;
 }
-.carousel-indicators > .active {
+.carousel-fade .carousel-indicators > .active {
   border: none;
   background-color: white;
   opacity: 1;
