@@ -70,4 +70,6 @@ body {
   z-index: 2;
   background: none;
 }
-
+.carousel-indicators li {
+  border: none;
+}
