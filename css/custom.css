@@ -5,7 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-p {
+h1, p {
   font-family: helvetica, arial, sans-serif;
 }
 .navbar-inverse {
