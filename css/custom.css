@@ -72,11 +72,5 @@ body {
 }
 .carousel-indicators li {
   border: none;
-  background-color: #fff;
-  opacity: 0.5;
-}
-.carousel-indicators li:active {
-  border: none;
-  background-color: #fff;
-  opacity: 1.0;
+  background-color: black;
 }
