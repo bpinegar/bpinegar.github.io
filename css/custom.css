@@ -72,5 +72,12 @@ body {
 }
 .carousel-indicators li {
   border: none;
-  background-color: black;
+  background-color: white;
+  opacity: 0.5;
+}
+.carousel-indicators:hover li,
+.carousel-indicators:focus li {
+  border: none;
+  background-color: white;
+  opacity: 0.9;
 }
