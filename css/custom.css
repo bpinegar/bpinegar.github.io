@@ -25,11 +25,6 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-
-/* rounding the navbar */
-.navbar { 
-  border-radius: 100px; 
-}
 .navbar-inverse {
   background-color: #336699;
   border: none;
@@ -117,8 +112,8 @@ body {
 /* responsive css */
 @media (min-width: 768px) {
 
-/* flattening the navbar */
+/* rounding the navbar */
   .navbar { 
-  border-radius: 0px; 
+  border-radius: 100px; 
   }
 }
