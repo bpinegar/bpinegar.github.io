@@ -113,3 +113,12 @@ body {
   background-color: white;
   opacity: 1;
 }
+
+/* responsive css */
+@media (min-width: 768px) {
+
+/* flattening the navbar */
+  .navbar { 
+  border-radius: 0px; 
+  }
+}
