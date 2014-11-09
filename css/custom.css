@@ -63,9 +63,6 @@ body {
 .carousel-inner .item {
   background: black;
   max-height: 500px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 .carousel-fade .carousel-inner .item {
   -webkit-transition: opacity 0.5s ease-in-out;
