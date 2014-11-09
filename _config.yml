@@ -1,0 +1,12 @@
+# Site settings
+title: Caitlin + Ben
+email: your-email@domain.com
+description: The official wedding website of Caitlin Weems and Ben Pinegar
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.caitlinplusben.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+port: 3000
