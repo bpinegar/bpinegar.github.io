@@ -28,7 +28,7 @@ body {
 
 /* rounding the navbar */
 .navbar { 
-  border-radius: 20px; 
+  border-radius: 100px; 
 }
 .navbar-inverse {
   background-color: #336699;
