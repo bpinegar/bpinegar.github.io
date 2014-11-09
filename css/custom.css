@@ -110,9 +110,12 @@ body {
 
 /* responsive css */
 @media (min-width: 768px) {
-
+/* floating the navbar */
+ .navbar-wrapper {
+    margin-top: 20px;
+  }
 /* rounding the navbar */
   .navbar { 
-  border-radius: 100px; 
+    border-radius: 100px; 
   }
 }
