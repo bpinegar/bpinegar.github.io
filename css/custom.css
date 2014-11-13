@@ -100,6 +100,7 @@ body {
 .carousel-fade .carousel-indicators li {
   border: none;
   background-color: white;
+  color: white;
   opacity: 0.5;
 }
 .carousel-fade .carousel-indicators > .active {
