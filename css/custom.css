@@ -91,6 +91,7 @@ body {
 .carousel-fade .carousel-control {
   z-index: 2;
   background: none;
+  color: white;
   text-shadow: none;
 }
 .carousel-fade .carousel-control:hover
@@ -100,7 +101,6 @@ body {
 .carousel-fade .carousel-indicators li {
   border: none;
   background-color: white;
-  color: white;
   opacity: 0.5;
 }
 .carousel-fade .carousel-indicators > .active {
