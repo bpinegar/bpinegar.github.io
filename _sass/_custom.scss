@@ -26,11 +26,13 @@ body {
 .navbar {
   border: none;
 }
+.navbar-header {
+  text-align: center;
+  margin: 10px;
+  float: none !important;
+}
 .navbar-brand {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60px;
-  float: none;
+  float: none !important;
 }
 /* active page highlight */
 .navbar .navbar-nav > .active,
