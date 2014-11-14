@@ -43,18 +43,18 @@ body {
   background-color:white;
   color: black;
 }
-.navbar-inverse .navbar-toggle .icon-bar
+.navbar .navbar-toggle .icon-bar
 {
   background-color: black;
   opacity: .5;
 }
-.navbar-inverse .navbar-toggle:focus .icon-bar, 
-.navbar-inverse .navbar-toggle:hover .icon-bar {
+.navbar .navbar-toggle:focus .icon-bar, 
+.navbar .navbar-toggle:hover .icon-bar {
   opacity: 1;
 }
-.navbar-inverse .navbar-toggle,
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
+.navbar .navbar-toggle,
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
   background-color: transparent;
   border:none;
 }
