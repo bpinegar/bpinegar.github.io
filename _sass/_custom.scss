@@ -27,6 +27,9 @@ body {
 .navbar {
   border: none;
 }
+.navbar .navbar-brand {
+  font: courier;
+}
 /* active page highlight */
 .navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
