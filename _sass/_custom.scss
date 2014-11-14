@@ -26,12 +26,6 @@ body {
 .navbar {
   border: none;
 }
-.navbar-nav > li {
-  margin: 0 auto;
-  display: table;
-  table-layout: fixed;
-  float:none;
-}
 /* active page highlight */
 .navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
