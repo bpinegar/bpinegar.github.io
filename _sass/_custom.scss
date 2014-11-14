@@ -26,6 +26,9 @@ body {
 .navbar {
   border: none;
 }
+.navbar-header {
+  text-align: center;
+}
 /* active page highlight */
 .navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
