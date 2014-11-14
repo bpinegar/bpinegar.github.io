@@ -27,7 +27,10 @@ body {
   border: none;
 }
 .navbar .navbar-nav > li {
-  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  float:none;
 }
 /* active page highlight */
 .navbar .navbar-nav > .active,
