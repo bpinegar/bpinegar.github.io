@@ -9,6 +9,15 @@ body {
   border: none;
   background-color: rgba(255,255,255,0.9);
 }
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-brand {
+  float:none;
+}
 /* active page highlight */
 .navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
