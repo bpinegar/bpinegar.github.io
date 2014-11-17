@@ -6,26 +6,25 @@ body {
   text-align: center;
 }
 .navbar-wrapper {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 20;
+  z-index: 20;*/
 }
 .navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+  /*padding-right: 0;
+  padding-left: 0;*/
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+ /* padding-right: 15px;
+  padding-left: 15px;*/
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
+  /*width: auto;*/
 }
 .navbar {
   border: none;
-  color: #fff;
   background-color: rgba(255,255,255,0.9);
 }
 /* active page highlight */
@@ -102,12 +101,5 @@ body {
 
 /* responsive css */
 @media (min-width: 768px) {
-/* floating the navbar */
- .navbar-wrapper {
-    margin-top: 20px;
-  }
-/* rounding the navbar
-  .navbar { 
-    border-radius: 100px; 
-  }*/
+
 }
