@@ -10,6 +10,8 @@ body {
   background-color: rgba(0,0,0,0.5);
 }
 .navbar .navbar-brand,
+
+/* change navbar brand colors*/
 .navbar .navbar-brand > a {
   font-size: 44px; 
   font-family: "Pacifico", cursive;
@@ -19,9 +21,23 @@ body {
 .navbar .navbar-brand > a:hover {
   color: yellow;
 }
-.navbar .navbar-nav > a {
+
+/* change navbar link colors*/
+.navbar .navbar-nav > li > a {
   color: white;
 }
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: red;
+}
+.navbar .navbar-nav > .active,
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: orange;
+  background: none;
+}
+
 .navbar-brand-centered {
   position: absolute;
   left: 50%;
