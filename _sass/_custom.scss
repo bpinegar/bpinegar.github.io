@@ -50,16 +50,11 @@ body {
 .navbar>.container-fluid .navbar-brand-centered {
   margin-left: -150px;
 }
-/* active page highlight */
-.navbar .navbar-nav > .active,
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active > a:focus {
-  color: orange;
-  background: none;
-}
+
+/* set navbar toggle colors and opacity*/
 .navbar .navbar-toggle .icon-bar
 {
+  color: white;
   opacity: .5;
 }
 .navbar .navbar-toggle:focus .icon-bar, 
@@ -72,6 +67,7 @@ body {
   background-color: transparent;
   border:none;
 }
+
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
