@@ -13,7 +13,7 @@ body {
 
 /* change navbar brand colors*/
 .navbar .navbar-brand > a {
-  font-size: 32px; 
+  font-size: 28px; 
   font-family: "Pacifico", cursive;
   color: white;
 }
@@ -54,6 +54,7 @@ body {
 /* set navbar toggle colors and opacity*/
 .navbar .navbar-toggle .icon-bar
 {
+  background-color: white;
   opacity: .5;
 }
 .navbar .navbar-toggle:focus .icon-bar, 
@@ -63,7 +64,6 @@ body {
 .navbar .navbar-toggle,
 .navbar .navbar-toggle:focus,
 .navbar .navbar-toggle:hover {
-  color: white;
   background-color: transparent;
   border:none;
 }
