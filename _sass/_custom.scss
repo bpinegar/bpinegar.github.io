@@ -9,9 +9,11 @@ body {
   border: none;
   background-color: rgba(0,0,0,0.6);
 }
-.navbar-brand {
+.navbar-brand,
+.navbar-brand > a {
   font-size: 44px; 
   font-family: "Pacifico", cursive;
+  color: white;
 }
 .navbar-brand-centered {
   position: absolute;
