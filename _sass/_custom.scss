@@ -10,7 +10,7 @@ body {
   background-color: rgba(255,255,255,0.75);
 }
 .navbar-brand {
-  font-size: 44px; 
+  font-size: 100px; 
   font-family: "Pacifico", cursive;
   color: black;
 }
@@ -18,13 +18,13 @@ body {
   position: absolute;
   left: 50%;
   display: block;
-  width: 300px;
+  width: 400px;
   text-align: center;
   background-color: transparent;
 }
 .navbar>.container .navbar-brand-centered, 
 .navbar>.container-fluid .navbar-brand-centered {
-  margin-left: -150px;
+  margin-left: -200px;
 }
 /* active page highlight */
 .navbar .navbar-nav > .active,
