@@ -11,9 +11,10 @@
       </div>
       <div id="navbar-brand-centered" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
+          {% assign current = page.url %}
           {% for page in site.pages %}
             {% if page.title %}
-              <li{% if page.title == page %} class="active"{% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              <li {% if current == page.url %}class="active"{% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
