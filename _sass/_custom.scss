@@ -10,8 +10,8 @@ body {
   background-color: rgba(255,255,255,0.9);
 }
 .navbar-brand {
-  font-family: "Pacifico", cursive;
-  font-size: 44px;
+  font: 44px "Pacifico", cursive;
+  color: darkblue;
 }
 .navbar-brand-centered {
   position: absolute;
