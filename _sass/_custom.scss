@@ -32,12 +32,11 @@ body {
   color: red;
   background-color: rgba(0,0,0,0.2);
 }
-.navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
   color: orange;
-  /*background-color: rgba(0,0,0,0.2);*/
+  background-color: rgba(0,0,0,0.2);
 }
 
 .navbar-brand-centered {
