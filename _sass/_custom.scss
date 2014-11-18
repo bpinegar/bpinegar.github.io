@@ -30,14 +30,14 @@ body {
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
   color: red;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.25);
 }
 .navbar .navbar-nav > .active,
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
   color: orange;
-  background: none;
+  background-color: rgba(0,0,0,0.25);
 }
 
 .navbar-brand-centered {
