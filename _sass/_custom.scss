@@ -39,19 +39,6 @@ body {
   background-color: rgba(0,0,0,0.2);
 }
 
-.navbar-brand-centered {
-  position: absolute;
-  left: 50%;
-  display: block;
-  width: 300px;
-  text-align: center;
-  background-color: transparent;
-}
-.navbar>.container .navbar-brand-centered, 
-.navbar>.container-fluid .navbar-brand-centered {
-  margin-left: -150px;
-}
-
 /* set navbar toggle colors and opacity*/
 .navbar .navbar-toggle .icon-bar
 {
