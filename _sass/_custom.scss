@@ -9,11 +9,14 @@ body {
   border: none;
   background-color: rgba(0,0,0,0.5);
   text-shadow: none;
+}
+
+.navbar .nav,
+.navbar .nav > li {
   float:none;
   display:inline-block;
   vertical-align: top
 }
-.navbar .navbar-brand,
 
 /* change navbar brand colors*/
 .navbar .navbar-brand > a {
