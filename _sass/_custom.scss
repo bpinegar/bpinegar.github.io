@@ -120,4 +120,10 @@ body {
   .navbar .navbar-brand > a {
     font-size: 44px;
   }
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
 }
