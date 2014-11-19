@@ -22,7 +22,7 @@ body {
 /* change navbar brand colors*/
 .navbar .navbar-brand,
 .navbar .navbar-brand > a {
-  font-size: 44px; 
+  font-size: 28px; 
   font-family: "Pacifico", cursive;
   color: white;
 }
@@ -117,7 +117,8 @@ body {
 
 /* responsive css */
 @media (min-width: 768px) {
-  .navbar .navbar-brand > a {
+.navbar .navbar-brand,
+.navbar .navbar-brand > a {
     font-size: 44px;
   }
 .navbar-brand,
