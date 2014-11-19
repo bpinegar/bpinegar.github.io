@@ -39,7 +39,6 @@ body {
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
   color: white;
-  text-decoration: underline overline;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
@@ -47,7 +46,6 @@ body {
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
   color: orange;
-  text-decoration: underline overline;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
