@@ -60,6 +60,9 @@ body {
 .navbar .navbar-toggle:hover .icon-bar {
   opacity: 1;
 }
+.navbar-toggle {
+  margin-right: 5px;
+}
 .navbar .navbar-toggle,
 .navbar .navbar-toggle:focus,
 .navbar .navbar-toggle:hover {
