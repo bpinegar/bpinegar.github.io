@@ -1,6 +1,7 @@
 /* global styling */
 body {
   background-color:white;
+  padding-top: 50px;
 }
 .container-fluid {
   margin-right: auto;
@@ -117,6 +118,9 @@ body {
 
 /* responsive css */
 @media (min-width: 768px) {
+.body {
+  padding-top: 50px;
+}
 .navbar .navbar-brand,
 .navbar .navbar-brand > a {
     font-size: 44px;
