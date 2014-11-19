@@ -5,9 +5,11 @@ body {
 .template-centered {
   text-align: center;
 }
-.primary-nav .navbar
-{
-  padding: 100px;
+.primary-nav {
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent
 }
 .navbar {
   border: none;
