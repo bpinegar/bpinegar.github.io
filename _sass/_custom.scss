@@ -8,7 +8,9 @@ body {
   padding-right: 5%;
   padding-left: 5%;
 }
-.navbar-toggle {
+.navbar .navbar-toggle,
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
   position: relative;
   float: right;
   margin-right: 50px;
@@ -17,8 +19,6 @@ body {
   margin-bottom: 3px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 0;
 }
 
 .template-centered {
@@ -68,12 +68,12 @@ body {
 .navbar .navbar-toggle:hover .icon-bar {
   opacity: 1;
 }
-.navbar .navbar-toggle,
+/*.navbar .navbar-toggle,
 .navbar .navbar-toggle:focus,
 .navbar .navbar-toggle:hover {
   background-color: transparent;
   border:none;
-}
+}*/
 
 .carousel,
 .carousel-inner,
