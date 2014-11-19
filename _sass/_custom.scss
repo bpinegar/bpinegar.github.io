@@ -117,6 +117,9 @@ body {
 
 /* responsive css */
 @media (min-width: 768px) {
+.navbar {
+  font-size: 18px;
+}
 .navbar .navbar-brand,
 .navbar .navbar-brand > a {
     font-size: 44px;
