@@ -1,6 +1,7 @@
 /* global styling */
 body {
   background-color:white;
+  padding-top: 50px;
 }
 .container-fluid {
   margin-right: auto;
@@ -67,7 +68,6 @@ body {
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
-  padding-top: 50px;
   background: black;
   max-height: 500px;
 }
