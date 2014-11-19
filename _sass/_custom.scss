@@ -115,24 +115,4 @@ body {
   .navbar .navbar-brand > a {
     font-size: 44px;
   }
-  .navbar-nav > li {
-    position: relative
-  }
-  .navbar-nav > li:before,
-  .navbar-nav > li:last-child:after {
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background: white;
-    top: 50%;
-    margin-top: -2px;
-    right: -3px;
-    z-index: 1;
-    border-radius: 6px;
-  }
-  .navbar-nav > li:before {
-   right: auto;
-   left: -3px;
-  }
 }
