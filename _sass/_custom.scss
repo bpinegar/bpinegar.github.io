@@ -35,7 +35,9 @@ footer {
   padding-right: 5%;
   padding-left: 5%;
 }
-
+.container-fluid .body-content {
+  background-color: #fff;
+}
 .navbar {
   border: none;
   background-color: rgba(0,0,0,0.5);
