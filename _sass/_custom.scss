@@ -24,7 +24,7 @@ footer {
   padding-bottom: 10px;
 }
 .navbar-stripe {
-  visibility: hidden;
+  display: none;
   width: auto;
   height: 5px;
   background-color: #fff;
@@ -154,7 +154,7 @@ body {
   padding-top: 65px;
 }
 .navbar-stripe {
-  visibility: visible;
+  display: block;
 }
 .container-fluid {
   padding-right: 10%;
