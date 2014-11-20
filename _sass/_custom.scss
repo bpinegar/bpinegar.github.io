@@ -1,6 +1,7 @@
 /* global styling */
 body {
-  background-color: #fff;
+  background-color: #efefef;
+  background-image: url("/img/backgrounds/tree-bark-bg-transparent.png");
   padding-top: 50px;
 }
 footer {
@@ -147,7 +148,6 @@ footer {
 @media (min-width: 768px) {
 body {
   padding-top: 60px;
-  background-image: url("/img/backgrounds/wood-bg-lg.jpg");
 }
 .navbar-stripe {
   visibility: visible;
