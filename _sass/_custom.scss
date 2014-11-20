@@ -51,7 +51,7 @@ footer {
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand > a:hover {
-  color: yellow;
+  color: #FFCDA0;
 }
 
 /* change navbar link colors*/
@@ -60,14 +60,14 @@ footer {
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-  color: white;
+  color: #FFCDA0;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: orange;
+  color: #FFCDA0;
   background: none;
   background-color: white;
 }
