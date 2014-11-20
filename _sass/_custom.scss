@@ -4,6 +4,7 @@ body {
   padding-top: 50px;
 }
 .navbar-stripe {
+  visibility: hidden;
   width: auto;
   height: 5px;
   background-color: #fff;
@@ -127,6 +128,9 @@ body {
 body {
   padding-top: 60px;
   background-image: url("/img/backgrounds/wood-bg-lg.jpg");
+}
+.navbar-stripe {
+  visibility: visible;
 }
 .container-fluid {
   padding-right: 10%;
