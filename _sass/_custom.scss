@@ -160,9 +160,9 @@ footer {
 
 /* responsive css */
 @media (min-width: 768px) {
-body {
+/*body {
   padding-top: 65px;
-}
+}*/
 .navbar-stripe {
   display: block;
 }
@@ -175,7 +175,7 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.navbar .navbar-brand,
+/*.navbar .navbar-brand,
 .navbar .navbar-brand > a {
     font-size: 36px;
 }
@@ -183,5 +183,5 @@ body {
 .navbar-nav li a {
     line-height: 30px;
     height: auto;
-}
+}*/
 }
