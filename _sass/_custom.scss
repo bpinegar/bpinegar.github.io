@@ -1,10 +1,19 @@
+/* colors */
+$white: #fff
+$ltgrey: #f7f7f7
+$dkgrey: #333
+$peach: #F7BB93
+$ltblue: #9FB6CD
+$dkblue: #6C7B8B
+$cran: #8B3A3A
+
 /* global styling */
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  background-color: #f7f7f7;
+  background-color: $ltgrey;
   background-image: url("/img/backgrounds/tree-bark-bg-transparent.png");
   padding-top: 50px;
   margin-bottom: 185px;
@@ -26,7 +35,7 @@ h1 {
   font-size: 32px;
 }
 .footer-bottom {
-  background-color: #fff;
+  background-color: $white;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -34,7 +43,7 @@ h1 {
   display: none;
   width: auto;
   height: 5px;
-  background-color: #fff;
+  background-color: $white;
 }
 .container-fluid {
   margin-right: auto;
@@ -52,23 +61,23 @@ h1 {
   margin-top: 10px;
 }
 .content-white {
-  background-color: #fff;
+  background-color: $white;
 }
 .content-peach {
-  background-color: #F7BB93;
+  background-color: $peach;
 }
 .content-lt-blue {
-  background-color: #9FB6CD;
-  color: #fff;
+  background-color: $ltblue;
+  color: $white;
 }
 .content-white > h1 {
-  color: #F7BB93;
+  color: $peach;
 }
 .content-peach > h1 {
-  color: #fff;
+  color: $white;
 }
 .content-lt-blue > h1 {
-  color: #F7BB93;
+  color: $peach;
 }
 .navbar {
   border: none;
@@ -82,35 +91,35 @@ h1 {
 .navbar .navbar-brand > a {
   font-size: 28px; 
   font-family: "Pacifico", cursive;
-  color: white;
+  color: $white;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand > a:hover {
-  color: #F7BB93;
+  color: $peach;
 }
 
 /* change navbar link colors*/
 .navbar .navbar-nav > li > a {
-  color: white;
+  color: $white;
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-  color: #F7BB93;
+  color: $peach;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: #F7BB93;
+  color: $peach;
   background: none;
-  background-color: white;
+  background-color: $white;
 }
 
 /* set navbar toggle colors and opacity*/
 .navbar .navbar-toggle .icon-bar
 {
-  background-color: white;
+  background-color: $white;
   opacity: .5;
 }
 .navbar .navbar-toggle:focus .icon-bar, 
@@ -159,7 +168,7 @@ h1 {
 }
 .carousel-fade .carousel-control {
   z-index: 2;
-  color: white;
+  color: $white;
   background: none;
   text-shadow: none;
 }
@@ -169,12 +178,12 @@ h1 {
 }
 .carousel-fade .carousel-indicators li {
   border: none;
-  background-color: white;
+  background-color: $white;
   opacity: 0.5;
 }
 .carousel-fade .carousel-indicators > .active {
   border: none;
-  background-color: white;
+  background-color: $white;
   opacity: 1;
 }
 
