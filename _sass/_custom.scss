@@ -39,16 +39,27 @@ footer {
   padding-right: 5%;
   padding-left: 5%;
 }
-.body-content {
+.body-content-white {
   background-color: #fff;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
 }
-.body-content > h1 {
+.body-content-peach {
+  background-color: #F7BB93;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
+}
+.body-content-white > h1 {
   margin-top: 10px;
   color: #F7BB93;
+}
+.body-content-peach > h1 {
+  margin-top: 10px;
+  color: #fff;
 }
 .navbar {
   border: none;
