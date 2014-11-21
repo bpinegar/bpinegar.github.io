@@ -37,9 +37,9 @@ footer {
 }
 .body-content {
   background-color: #fff;
-  padding: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
 }
 .navbar {
@@ -162,10 +162,15 @@ body {
   padding-right: 10%;
   padding-left: 10%;
 }
+.body-content {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .navbar .navbar-brand,
 .navbar .navbar-brand > a {
     font-size: 36px;
-  }
+}
 .navbar-brand,
 .navbar-nav li a {
     line-height: 30px;
