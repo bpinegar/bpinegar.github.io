@@ -42,38 +42,32 @@ h1 {
   padding-right: 5%;
   padding-left: 5%;
 }
-.body-content-white {
+.content-box {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
+}
+.content-box > h1 {
+  margin-top: 10px;
+}
+.content-white {
   background-color: #fff;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
 }
-.body-content-peach {
+.content-peach {
   background-color: #F7BB93;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
 }
-.body-content-dark-blue {
+.content-dark-blue {
   background-color: #55759C;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
   color: #fff;
 }
-.body-content-white > h1 {
-  margin-top: 10px;
+.content-white > h1 {
   color: #F7BB93;
 }
-.body-content-peach > h1 {
-  margin-top: 10px;
+.content-peach > h1 {
   color: #fff;
 }
-.body-content-dark-blue > h1 {
-  margin-top: 10px;
+.content-dark-blue > h1 {
   color: #F7BB93;
 }
 .navbar {
