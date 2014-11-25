@@ -14,7 +14,7 @@
         <ul class="nav navbar-nav navbar-right">
           {% assign current = page.url %}
           {% for page in site.pages %}
-            {% if page.title %}
+            {% if page.title != "Home" %}
               <li {% if current == page.url %}class="active"{% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
