@@ -211,4 +211,8 @@ body {
 .navbar-nav li a {
     height: auto;
 }
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 }
