@@ -212,8 +212,12 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.navbar-nav {
-  float: none;
+.navbar .navbar-nav {
   display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
 }
 }
