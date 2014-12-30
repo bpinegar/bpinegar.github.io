@@ -15,7 +15,7 @@
           {% assign active = page.url %}
           {% assign sorted_pages = site.pages | sort:"weight" %}
           {% for page in sorted_pages %}
-            {% if page.title and page.title != "Home" %}
+            {% if page.title %}
               <li {% if active == page.url %}class="active"{% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
