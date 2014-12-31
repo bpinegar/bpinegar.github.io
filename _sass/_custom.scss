@@ -208,7 +208,7 @@ body {
 .navbar-nav li a {
     height: auto;
 }
-.navbar-brand .navbar-brand-mobile {
+.navbar-brand .navbar-brand-mobile > a {
   display: none;
 }
 .navbar-nav > li > a {
