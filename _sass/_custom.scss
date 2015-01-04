@@ -6,6 +6,7 @@ $peach: #F7BB93;
 $ltblue: #9FB6CD;
 $dkblue: #6C7B8B;
 $cran: #8B3A3A;
+$serif-font: "Vidaloka";
 
 /* global styling */
 html {
@@ -25,7 +26,7 @@ footer {
   bottom: 0;
 }
 h1, h2 {
-  font-family: "Vidaloka", serif;
+  font-family: $serif-font, serif;
 }
 .footer-wrapper{
   text-align: center;
@@ -96,7 +97,7 @@ h1, h2 {
   color: $white;
   float: none;
   margin-right: 32px;
-  font-family: "Vidaloka", serif;
+  font-family: $serif-font, serif;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand > a:hover {
