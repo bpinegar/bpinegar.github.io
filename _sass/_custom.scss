@@ -97,6 +97,7 @@ h1, h2, h3 {
 .content-clear {
  background: none;
  color: $white;
+ box-shadow: none;
 }
 .content-white > h1 {
   color: $peach;
