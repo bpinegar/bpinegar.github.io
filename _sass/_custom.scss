@@ -3,7 +3,7 @@ $white: #fff;
 $ltgrey: #f7f7f7;
 $dkgrey: #333;
 $peach: #F7BB93;
-$ltblue: #9FB6CD;
+$ltblue: #A4D3EE;
 $dkblue: #6C7B8B;
 $cran: #8B3A3A;
 $serif-font: "Vidaloka";
@@ -100,7 +100,7 @@ h1, h2, h3 {
  box-shadow: none;
 }
 .content-white > h1 {
-  color: $peach;
+  color: $ltblue;
 }
 .content-white > h3 {
   color: $dkblue;
@@ -126,7 +126,7 @@ h1, h2, h3 {
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand > a:hover {
-  color: $peach;
+  color: $ltblue;
 }
 
 /* change navbar link colors*/
@@ -135,14 +135,14 @@ h1, h2, h3 {
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-  color: $peach;
+  color: $ltblue;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: $peach;
+  color: $ltblue;
   background: none;
   background-color: $white;
 }
