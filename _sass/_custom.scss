@@ -237,6 +237,10 @@ h1, h2, h3 {
   background-color: $white;
   opacity: 1;
 }
+.countdown-timer {
+	color: $white;
+	text-align: center;
+}
 
 /* responsive css */
 @media (min-width: 768px) {
