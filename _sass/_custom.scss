@@ -98,11 +98,12 @@ h1, h2, h3 {
  background: none;
  color: $white;
  box-shadow: none;
- .hr {
+}
+.content-logo > hr {
   margin-top:0px;
   margin-bottom:0px;
+  border-top: 4px double $white;
  }
-}
 .content-white > h1 {
   color: $ltblue;
 }
