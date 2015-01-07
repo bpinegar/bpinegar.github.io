@@ -99,6 +99,12 @@ h1, h2, h3 {
  color: $white;
  box-shadow: none;
 }
+.content-logo > h1 {
+	font-size: 60px;
+}
+.content-logo > p {
+	font-size: 20px;
+}
 .logo-hr {
   margin-top: 0px;
   margin-bottom: 0px;
