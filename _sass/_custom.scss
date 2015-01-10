@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Typewriter";
+	src: url(fonts/americantypewriter.ttf);
+}
+@font-face {
+	font-family: "Helvetica";
+	src: url(fonts/helvetica.ttf);
+}
+
 /* colors */
 $white: #fff;
 $ltgrey: #f7f7f7;
@@ -8,15 +17,6 @@ $dkblue: #6C7B8B;
 $cran: #8B3A3A;
 $serif-font: "Typewriter";
 $sans-serif-font: "Helvetica";
-
-@font-face {
-	font-family: "Typewriter";
-	src: url(fonts/AmericanTypewriter.ttf);
-}
-@font-face {
-	font-family: "Helvetica";
-	src: url(fonts/Helvetica.ttf);
-}
 
 /* global styling */
 html {
