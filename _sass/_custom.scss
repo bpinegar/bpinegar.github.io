@@ -9,6 +9,15 @@ $cran: #8B3A3A;
 $serif-font: "Vidaloka";
 $sans-serif-font: "Open Sans";
 
+@font-face {
+	font-family: "Typewriter";
+	src: url(fonts/AmericanTypewriter.ttf);
+}
+@font-face {
+	font-family: "Helvetica";
+	src: url(fonts/Helvetica.ttf);
+}
+
 /* global styling */
 html {
   position: relative;
