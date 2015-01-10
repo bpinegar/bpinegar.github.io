@@ -11,7 +11,7 @@ $peach: #F7BB93;
 $ltblue: #A4D3EE;
 $dkblue: #6C7B8B;
 $cran: #8B3A3A;
-$serif-font: typewriter;
+$serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
 /* global styling */
@@ -61,7 +61,7 @@ footer {
   bottom: 0;
 }
 h1, h2, h3 {
-  font-family: $serif-font, serif;
+  font-family: $serif-font;
 }
 .footer-wrapper{
   text-align: center;
@@ -116,6 +116,7 @@ h1, h2, h3 {
 	margin: 10px 0px;
 	width: auto;
 	display: inline-block;
+	font-family: $serif-font;
 }
 .logo-hr {
 	margin: 0px 350px;
