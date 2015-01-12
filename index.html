@@ -55,8 +55,8 @@ function GetCount(){
                 secs=Math.floor(amount);//seconds
 
                 if(days != 0){out += days +" day"+((days!=1)?"s":"")+", ";}
-                if(days != 0 || hours != 0){out += hours +" hour"+((hours!=1)?"s":"")+", ";}
-                if(days != 0 || hours != 0 || mins != 0){out += mins +"& minute"+((mins!=1)?"s":"")+", ";}
+                if(days != 0 || hours != 0){out += hours +" hour"+((hours!=1)?"s":"")+", and ";}
+                if(days != 0 || hours != 0 || mins != 0){out += mins +" minute"+((mins!=1)?"s":"");}
                 document.getElementById('countbox').innerHTML=out;
 
                 setTimeout("GetCount()", 1000);
