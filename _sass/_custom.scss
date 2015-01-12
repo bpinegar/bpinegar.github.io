@@ -7,10 +7,10 @@
 $white: #fff;
 $ltgrey: #f7f7f7;
 $dkgrey: #333;
-$peach: #F7BB93;
-$ltblue: #94b5bc;
-$dkblue: #6C7B8B;
-$cran: #8B3A3A;
+$peachy: #fab186;
+$cornflower: #94b5bc;
+$night: #162c53;
+$leaf: #a2ba97
 $serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
@@ -123,7 +123,7 @@ h1, h2, h3 {
  	border-top: 4px double $white;
  }
 .content-white > h1 {
-  color: $ltblue;
+  color: $cornflower;
 }
 .content-white > h3 {
   color: $dkblue;
@@ -149,7 +149,7 @@ h1, h2, h3 {
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand > a:hover {
-  color: $ltblue;
+  color: $cornflower;
 }
 
 /* change navbar link colors*/
@@ -158,14 +158,14 @@ h1, h2, h3 {
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-  color: $ltblue;
+  color: $cornflower;
   background: none;
   /*background-color: rgba(0,0,0,0.2);*/
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: $ltblue;
+  color: $cornflower;
   background: none;
   background-color: $white;
 }
