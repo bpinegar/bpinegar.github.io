@@ -253,6 +253,14 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+/* specific div ids */
+#date-loc-bar {
+	background-color:$cornflower;
+	text-align:center;
+	color:white;
+	font-family:$serif-font;
+}
+
 /* responsive css */
 @media (min-width: 768px) {
 body {
