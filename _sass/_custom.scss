@@ -11,6 +11,8 @@ $peachy: #fab186;
 $cornflower: #94b5bc;
 $night: #162c53;
 $leaf: #a2ba97;
+$kraft: #c6ac89;
+$papaya: #f68b69;
 $serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
@@ -123,10 +125,13 @@ h1, h2, h3 {
  	border-top: 4px double $white;
  }
 .content-white > h1 {
-  color: $cornflower;
+ 	color: $cornflower;
+}
+.content-white > h2 {
+	color: $night;
 }
 .content-white > h3 {
-  color: $dkblue;
+ 	color: $peachy;
 }
 .navbar {
   border: none;
