@@ -246,9 +246,12 @@ h1, h2, h3 {
   background-color: $white;
   opacity: 1;
 }
-.countdown-timer {
+#countdown {
 	color: $white;
 	text-align: center;
+}
+#countdown h1 {
+	margin: 0px;
 }
 
 /* specific div ids */
