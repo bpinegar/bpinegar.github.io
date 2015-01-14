@@ -92,13 +92,10 @@ h1, h2, h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
+  background: url("/img/backgrounds/lightpaperfibers.png");
 }
 .content-box > h1 {
   margin-top: 10px;
-}
-.content-white {
-  background: url("/img/backgrounds/lightpaperfibers.png");
- /* border-radius: 10px; */
 }
 .content-logo {
  text-align: center;
@@ -123,13 +120,13 @@ h1, h2, h3 {
 	margin: 0px 350px;
  	border-top: 4px double $white;
  }
-.content-white h1 {
+.content-box h1 {
  	color: $cornflower;
 }
-.content-white h2 {
+.content-box h2 {
 	color: $peachy;
 }
-.content-white h3 {
+.content-box h3 {
  	color: $night;
 }
 .navbar {
