@@ -123,13 +123,13 @@ h1, h2, h3 {
 	margin: 0px 350px;
  	border-top: 4px double $white;
  }
-.content-white > h1 {
+.content-white h1 {
  	color: $cornflower;
 }
-.content-white > h2 {
+.content-white h2 {
 	color: $peachy;
 }
-.content-white > h3 {
+.content-white h3 {
  	color: $night;
 }
 .navbar {
