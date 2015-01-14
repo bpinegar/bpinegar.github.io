@@ -97,24 +97,26 @@ h1, h2, h3 {
 .content-box > h1 {
   margin-top: 10px;
 }
-.content-logo {
+#header-logo {
  text-align: center;
  background: none;
  color: $white;
  box-shadow: none;
 }
-.content-logo > h1 {
+#header-logo > h1 {
 	font-size: 60px;
 	line-height: 90%;
 	margin: 10px 0px;
+	color: $white;
 }
-.content-logo > p {
+#header-logo > p {
 	font-size: 20px;
 	line-height: 100%;
 	margin: 10px 0px;
 	width: auto;
 	display: inline-block;
 	font-family: $serif-font;
+	color: $white;
 }
 .logo-hr {
 	margin: 0px 350px;
