@@ -246,13 +246,7 @@ h1, h2, h3 {
   background-color: $white;
   opacity: 1;
 }
-.listing-table {
-	display: table;
-}
-.listing-cell,
-.listing-cell > p {
-	display: table-cell;
-}
+
 #countdown {
 	color: $white;
 	text-align: center;
