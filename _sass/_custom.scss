@@ -249,7 +249,8 @@ h1, h2, h3 {
 .listing-table {
 	display: table;
 }
-.listing-cell {
+.listing-cell,
+.listing-cell > p {
 	display: table-cell;
 }
 #countdown {
