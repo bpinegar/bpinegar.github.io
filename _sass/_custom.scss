@@ -17,6 +17,13 @@ $serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
 /* global styling */
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
 html {
   position: relative;
   min-height: 100%;
