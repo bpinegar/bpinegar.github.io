@@ -288,11 +288,12 @@ h1, h2, h3 {
 }
 li.li-icon:before {
 	font-family: 'FontAwesome';
-	margin:0 0 0 -1.28571429em;
+	margin:0 .357em 0 -1.28571429em;
 	text-align: center;
-	display: block;
 	float: left;
+	position: absolute;
 	width: 1.28571429em;
+	height: 100%;
 }
 li.li-location:before {
 	content: '\f041';
