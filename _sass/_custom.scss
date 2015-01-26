@@ -277,11 +277,18 @@ h1, h2, h3 {
 .no-left-pad {
 	padding-left: 0;
 }
+
+/* custom list with icons */
 .icon-list {
 	list-style-type: none;
 }
 .icon-list > li {
 	position: relative;
+}
+.location:before {
+	font-family: 'FontAwesome';
+	content: '\f041';
+	margin:0 5px 0 -15px;
 }
 
 
