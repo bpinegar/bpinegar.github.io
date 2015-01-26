@@ -261,7 +261,9 @@ h1, h2, h3 {
 #countdown h1 {
 	margin: 0px;
 }
-
+.no-left-margin {
+	margin-left: 0;
+}
 /* specific div ids */
 #date-loc-bar {
 	background-color: $cornflower;
