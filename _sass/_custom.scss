@@ -286,14 +286,16 @@ h1, h2, h3 {
 .icon-list > li {
 	position: relative;
 }
-li.li-location:before {
+li.li-icon:before {
 	font-family: 'FontAwesome';
-	content: '\f041';
-	margin:0 5px 0 -1.28571429em;
+	margin:0 0 0 -1.28571429em;
 	text-align: center;
 	display: block;
 	float: left;
 	width: 1.28571429em;
+}
+li.li-location:before {
+	content: '\f041';
 }
 
 
