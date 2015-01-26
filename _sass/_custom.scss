@@ -289,9 +289,10 @@ h1, h2, h3 {
 li.li-location:before {
 	font-family: 'FontAwesome';
 	content: '\f041';
-	margin:0 5px 0 -15px;
+	margin:0 5px 0 -1.28571429em;
 	text-align: center;
 	display: block;
+	float: left;
 	width: 1.28571429em;
 }
 
