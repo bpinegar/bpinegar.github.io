@@ -271,12 +271,19 @@ h1, h2, h3 {
 	color: white;
 	font-family: $serif-font;
 }
-
-
-/*font awesome customizations */
-.fa-ul {
+.no-left-margin {
 	margin-left: 0;
 }
+.no-left-pad {
+	padding-left: 0;
+}
+.icon-list {
+	list-style-type: none;
+}
+.icon-list > li {
+	position: relative;
+}
+
 
 /* responsive css */
 @media (min-width: 768px) {
