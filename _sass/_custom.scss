@@ -272,6 +272,12 @@ h1, h2, h3 {
 	font-family: $serif-font;
 }
 
+
+/*font awesome customizations */
+.fa-ul {
+	margin-left: 0;
+}
+
 /* responsive css */
 @media (min-width: 768px) {
 body {
