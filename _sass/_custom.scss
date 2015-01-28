@@ -104,6 +104,9 @@ h1, h2, h3 {
 .content-box > h1 {
   margin-top: 10px;
 }
+.inline-block {
+	display: inline-block;
+}
 #header-logo {
  text-align: center;
  background: none;
@@ -126,7 +129,7 @@ h1, h2, h3 {
 	color: $white;
 }
 #logo-hr {
-	margin: 0 20%;
+	margin: 0 -50px;
  	border-top: 6px double $white;
  }
 .content-box h1 {
