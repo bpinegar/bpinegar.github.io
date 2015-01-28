@@ -166,7 +166,7 @@ h1, h2, h3 {
 }
 
 /* change navbar link colors*/
-.navbar .navbar-nav li a {
+.navbar .navbar-nav > li > a {
   color: $white;
 }
 .navbar .navbar-nav > li > a:hover,
@@ -345,8 +345,14 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
+.navbar .dropdown-menu {
+	background-color: $cornflower;
+	color: $white;
+	border: 0;
+}
+
 /* enable dropdown on hover */
-.dropdown:hover .dropdown-menu {
+.navbar .dropdown:hover .dropdown-menu {
     display: block;
  }
 }
