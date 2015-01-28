@@ -307,6 +307,9 @@ li.li-time:before {
 	content: '\f017';
 }
 
+.inlaid-border {
+	position: relative;
+}
 .inlaid-border:before {
 	content: "";
 	position: absolute;
