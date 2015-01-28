@@ -347,8 +347,9 @@ body {
 }
 .navbar .dropdown-menu {
 	background-color: $cornflower;
-	color: $white;
 	border: 0;
+	border-radius: 0;
+	box-shadow: 0px 3px 1px rgba(0,0,0,0.2);
 }
 
 /* enable dropdown on hover */
