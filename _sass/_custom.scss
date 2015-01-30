@@ -205,7 +205,12 @@ h1, h2, h3 {
   background-color: transparent;
   border:none;
 }
-
+.navbar .dropdown-menu > li > a,
+.navbar .dropdown-menu > li > a:hover,
+.navbar .dropdown-menu > li > a:focus {
+	color: $white;
+	background: none;
+}
 
  
 .carousel,
