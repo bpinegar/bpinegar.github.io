@@ -70,7 +70,7 @@ footer {
 }
 h1, h2, h3 {
   font-family: $serif-font;
-  text-wrap: suppress;
+  word-wrap: break-word;
 }
 .footer-wrapper{
   text-align: center;
