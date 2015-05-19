@@ -27,7 +27,7 @@ $sans-serif-font: "Open Sans";
 html {
   position: relative;
   min-height: 100%;
-  background: url("/img/backgrounds/groovepaper.png") /*no-repeat fixed top center;
+  background: $ltgrey url("/img/backgrounds/groovepaper.png") /*no-repeat fixed top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
