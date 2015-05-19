@@ -100,7 +100,7 @@ h1, h2, h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 3px 1px rgba(0,0,0,0.1);
-  background: url("/img/backgrounds/lightpaperfibers.png");
+  background: $white; /*url("/img/backgrounds/lightpaperfibers.png");*/
 }
 .content-box > h1 {
   margin-top: 10px;
