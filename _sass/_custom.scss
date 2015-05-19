@@ -327,7 +327,7 @@ li.li-time:before {
 }
 .no-bullets {
 	list-style-type: none;
-	margin-left: none;
+	margin-left: 0;
 }
 .registry-square {
 	background: $peachy;
