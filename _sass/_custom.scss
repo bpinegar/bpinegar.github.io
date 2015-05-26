@@ -16,6 +16,12 @@ $papaya: #f68b69;
 $serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* global styling */
 .row:before, .row:after {
 	content: "";
