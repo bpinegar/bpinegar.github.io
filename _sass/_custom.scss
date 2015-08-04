@@ -16,6 +16,11 @@ $papaya: #f68b69;
 $serif-font: typewriter, courier, serif;
 $sans-serif-font: "Open Sans";
 
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
 .float-right {
 	float: right;
 }
